@@ -1,4 +1,6 @@
 ﻿// Guid
+using System.Text;
+
 var id = Guid.NewGuid(); // Gera um Guid Aleatório
 id = new Guid("4f269ad7-7e3d-4e3c-8cc1-0b49443af319");
 
@@ -44,3 +46,12 @@ Console.WriteLine(divisao[4]);
 Console.WriteLine(divisao[5]);
 Console.WriteLine(texto.Substring(0, 5));
 Console.WriteLine(texto.Trim());
+
+// StringBuilder
+
+var builder = new StringBuilder();
+
+builder.Append("Sou um texto");
+builder.Append("Eu também sou um texto");
+
+Console.WriteLine(builder);
