@@ -18,3 +18,8 @@ Console.WriteLine(texto.Contains("Testando", StringComparison.OrdinalIgnoreCase)
 // Equals
 
 Console.WriteLine(texto.Equals("testando"));
+
+// Index
+
+Console.WriteLine(texto.IndexOf("t"));
+Console.WriteLine(texto.LastIndexOf("t"));
