@@ -10,7 +10,7 @@ Console.WriteLine(id2);
 Console.WriteLine(string.Format("Guid: {0}", id));
 
 // Compare
-var texto = "testando";
+var texto = "Este é um texto de teste";
 Console.WriteLine(texto.CompareTo("testando"));
 Console.WriteLine(texto.Contains("testando"));
 Console.WriteLine(texto.Contains("Testando", StringComparison.OrdinalIgnoreCase));
@@ -21,7 +21,7 @@ Console.WriteLine(texto.Equals("testando"));
 
 // Index
 
-Console.WriteLine(texto.IndexOf("t"));
+Console.WriteLine(texto.IndexOf(" t "));
 Console.WriteLine(texto.LastIndexOf("t"));
 
 // Case Methods
@@ -30,3 +30,17 @@ Console.WriteLine(texto.ToLower());
 Console.WriteLine(texto.Insert(5, " AQUI "));
 Console.WriteLine(texto.Remove(5, 3));
 Console.WriteLine(texto.Length);
+
+
+// Replace
+Console.WriteLine(texto.Replace("ando", "ado"));
+
+var divisao = texto.Split(" ");
+Console.WriteLine(divisao[0]);
+Console.WriteLine(divisao[1]);
+Console.WriteLine(divisao[2]);
+Console.WriteLine(divisao[3]);
+Console.WriteLine(divisao[4]);
+Console.WriteLine(divisao[5]);
+Console.WriteLine(texto.Substring(0, 5));
+Console.WriteLine(texto.Trim());
