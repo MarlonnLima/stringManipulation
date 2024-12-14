@@ -9,3 +9,9 @@ Console.WriteLine(id2);
 // Format
 Console.WriteLine(string.Format("Guid: {0}", id));
 
+// Compare
+var texto = "testando";
+Console.WriteLine(texto.CompareTo("testando"));
+Console.WriteLine(texto.Contains("testando"));
+Console.WriteLine(texto.Contains("Testando", StringComparison.OrdinalIgnoreCase));
+
