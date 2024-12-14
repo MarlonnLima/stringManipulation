@@ -15,3 +15,6 @@ Console.WriteLine(texto.CompareTo("testando"));
 Console.WriteLine(texto.Contains("testando"));
 Console.WriteLine(texto.Contains("Testando", StringComparison.OrdinalIgnoreCase));
 
+// Equals
+
+Console.WriteLine(texto.Equals("testando"));
